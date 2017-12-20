@@ -4,6 +4,12 @@
 ### git init
 > 初始化一个空的仓库
 
+### git clone git@github.com:wujq4git/gitlecture.git
+> 将代码克隆到默认的gitlecture目录下
+
+### git clone git@github.com:wujq4git/gitlecture.git mydest
+> 将代码克隆到指定的文件夹mydest里面
+
 ### git status
 > 查看git状态, 查看哪些文件没有提交。
 
@@ -30,16 +36,6 @@
 
 ### cat ~/.gitconfig
 > 查看通过git config --global设置的配置信息
-
-
-
-### git clone git@github.com:wujq4git/gitlecture.git
-> 将代码克隆到默认的gitlecture目录下
-
-### git clone git@github.com:wujq4git/gitlecture.git mydest
-> 将代码克隆到指定的文件夹mydest里面
-
-
 
 ### 分支
 

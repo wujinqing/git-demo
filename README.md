@@ -34,6 +34,8 @@
 
 > git config --global alias.co checkout
 
+> git config --global alias.cm 'commit -m'
+
 ### cat ~/.gitconfig
 > 查看通过git config --global设置的配置信息
 

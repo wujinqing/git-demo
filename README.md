@@ -154,6 +154,11 @@
 ### git log origin/master
 > 查看远程分支的日志
 
+### 设置日志的提交日期显示格式
+> git log --date=format:'%Y-%m-%d %H:%M:%S'
+
+> git config --golbal log.date format:'%Y-%m-%d %H:%M:%S'
+
 ### 保存工作现场
 > 应用场景：当前分支的任务进行到一半，想切换到其他分支，又不想提交代码，就可以先保存工作现场。
 

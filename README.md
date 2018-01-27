@@ -36,6 +36,13 @@
 
 > git config --global alias.cm 'commit -m'
 
+> git config --global alias.cam 'commit -am'
+
+> git config --global alias.rs 'remote show origin'
+
+> git config --global alias.cp cherry-pick
+
+
 ### cat ~/.gitconfig
 > 查看通过git config --global设置的配置信息
 

@@ -190,6 +190,9 @@
 ### git tag -a v2.0 -m 'v2.0 released'
 > 打标签, 并有相关说明
 
+### git tag -a v2.0 xxx_commit_id
+> 后期打标签, 在xxx_commit_id所在的时间节点上打标签
+
 ### git show v1.0
 > 显示标签的信息
 

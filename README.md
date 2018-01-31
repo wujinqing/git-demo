@@ -247,8 +247,12 @@
 ### git cherry-pick commit_id
 > 将另一个分支的提交应用到当前分支
 
+### git show --name-only
+> 查看最近一次提交的文件列表
 
 
+### git show 035839 --name-only
+> 查看指定commit_id的提交的文件列表
 
 
 

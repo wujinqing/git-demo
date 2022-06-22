@@ -255,6 +255,15 @@
 > 查看指定commit_id的提交的文件列表
 
 
+'''
+--k8s-log-server迁移
+git clone http://127.0.1:10080/wujinqing/k8s-log-server.git
+cd k8s-log-server
+git remote add k8s-log-server http://127.0.1:10080/app-tms/k8s-log-server.git
+git push k8s-log-server --mirror
+git push k8s-log-server refs/remotes/origin/*:refs/heads/*
+git push k8s-log-server --delete HEAD
+'''
 
 
 

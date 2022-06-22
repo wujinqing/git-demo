@@ -266,13 +266,22 @@ git push k8s-log-server refs/remotes/origin/*:refs/heads/*
 git push k8s-log-server --delete HEAD
 ```
 
+### 生成秘钥
 
+#### 1.进入ssh目录
+> cd /c/Users/wujinqing/.ssh
 
+#### 2.执行ssh-keygen
+> ssh-keygen
 
+> 1.输入文件名，可以按回车跳过（不输入默认id_rsa）。
 
+> 2.输入密码，可以按回车跳过。
 
+#### 3.添加生成的秘钥文件  ssh-add id_rsa
+> ssh-add id_rsa
 
-
+> 如果添加的时候报Could not open a connection to your authentication agent. 则执行一下ssh-agent bash命令。
 
 
 

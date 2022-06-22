@@ -283,7 +283,8 @@ git push k8s-log-server --delete HEAD
 
 > 如果添加的时候报Could not open a connection to your authentication agent. 则执行一下ssh-agent bash命令。
 
-
+#### 4.生成的两个文件公钥id_rsa.pub 和私钥id_rsa
+> 将公钥id_rsa.pub里面的内容复制到各个平台去
 
 
 

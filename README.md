@@ -82,6 +82,9 @@
 ### git branch -m master master2
 > 修改分支名称
 
+### git branch -m master2
+> 修改当前分支名称
+
 ### git checkout -b develop origin/develop
 > 创建并切换一个分支develop，并且这个分支会追踪远程的origin/develop分支
 

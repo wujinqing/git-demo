@@ -121,6 +121,9 @@
 ### git commit -am 'this is commit message'
 > 直接将当前目录下的所有修改进行提交, 相当于同时执行git add .和 git commit两个命令
 
+### git commit --amend -m  'this is new commit message'
+> 修改上一次提交的注释信息
+
 
 ### 版本回退
 

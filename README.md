@@ -293,5 +293,11 @@ git push k8s-log-server --delete HEAD
 > 将公钥id_rsa.pub里面的内容复制到各个平台去
 
 
+### git clean -f
+> 删除未跟踪文件
+
+### git clean -fd
+> 连未跟踪的目录也一起删掉
+
 
 

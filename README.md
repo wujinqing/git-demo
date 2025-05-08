@@ -97,6 +97,9 @@
 ### git checkout --track origin/test
 > 创建一个和远程分支名字相同的分支来追踪远程分支
 
+### git checkout --track -b <local-branch-name> <remote-name>/<remote-branch-name>
+> 创建一个和远程分支名字不相同的分支来追踪远程分支
+
 ### git push origin :develop
 > 删除远程分支develop
 
